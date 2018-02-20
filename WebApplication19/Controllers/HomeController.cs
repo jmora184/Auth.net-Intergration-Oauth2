@@ -9,9 +9,9 @@ namespace WebApplication19.Controllers
     public class HomeController : Controller
     {
         [RequireHttps]
-        public ActionResult Index()
+        public ActionResult Index1()
         {
-            return View();
+            return View("Index");
         }
 
         public ActionResult About()
