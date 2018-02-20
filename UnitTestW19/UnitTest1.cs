@@ -8,6 +8,7 @@ namespace UnitTestW19
     [TestClass]
     public class UnitTest1
     {
+        public bool fd;
         [TestMethod]
         public void Index1()
         {
