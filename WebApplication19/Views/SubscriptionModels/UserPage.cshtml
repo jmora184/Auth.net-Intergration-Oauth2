@@ -1,0 +1,22 @@
+﻿@model WebApplication19.Models.SubscriptionModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UserPage</title>
+</head>
+<body>
+    <div> 
+        Thank you for signing up! you can cancel here as well!
+      @Html.DisplayFor(model => model.subscriptionLength)
+    </div>
+    <div class="col-md-offset-2 col-md-10">
+        <input type="button" value="Cancel Subsciption " onclick="location.href='@Url.Action("Cancel","SubscriptionModels")'" />
+    </div>
+</body>
+</html>
