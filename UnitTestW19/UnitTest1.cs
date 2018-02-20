@@ -8,7 +8,7 @@ namespace UnitTestW19
     [TestClass]
     public class UnitTest1
     {
-        public bool fds;
+        public bool fdss;
         [TestMethod]
         public void Index1()
         {
