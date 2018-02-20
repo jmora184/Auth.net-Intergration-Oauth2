@@ -115,9 +115,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\WebApplication19\WebApplication19.csproj">
+    <ProjectReference Include="..\WebApplication19\AuthorizeIntOauth2.csproj">
       <Project>{de20dd23-e562-4c54-85dd-f562af58b15e}</Project>
-      <Name>WebApplication19</Name>
+      <Name>AuthorizeIntOauth2</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
